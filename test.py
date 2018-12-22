@@ -4,7 +4,7 @@ import numpy as np
 class NeuralNetwork():
     def __init__(self):
         # seeding for random number generation
-        np.random.seed(23234121)
+        np.random.seed(12)
 
         # converting weights to a 3 by 1 matrix with values from -1 to 1 and mean of 0
         self.synaptic_weights = 2 * np.random.random((3, 1)) - 1
